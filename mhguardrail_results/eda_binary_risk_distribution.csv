@@ -1,0 +1,7 @@
+Split,Risk Class,Count,Percentage
+Train,Non-elevated (0),81,42.857142857142854
+Train,Elevated (1),108,57.142857142857146
+Validation,Non-elevated (0),16,39.02439024390244
+Validation,Elevated (1),25,60.97560975609756
+Test,Non-elevated (0),16,39.02439024390244
+Test,Elevated (1),25,60.97560975609756

@@ -1,0 +1,139 @@
+{
+  "threshold": 0.07,
+  "critical_threshold": 0.85,
+  "threshold_policy": "max precision subject to recall >= 0.95",
+  "response_replacement_sections": [
+    "imminent_plan_or_method",
+    "self_harm_or_suicidal_ideation"
+  ],
+  "max_length": 384,
+  "validation_score_separation": 0.37207984924316406,
+  "validation_auc": 0.8075,
+  "results_by_system": {
+    "majority_baseline": {
+      "point_estimate": {
+        "accuracy": 0.6097560975609756,
+        "balanced_accuracy": 0.5,
+        "precision": 0.6097560975609756,
+        "recall": 1.0,
+        "f1": 0.7575757575757576,
+        "mcc": 0.0,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 1.0,
+        "escalation_rate": 1.0
+      },
+      "ci_95": {
+        "accuracy": [
+          0.4634146341463415,
+          0.7560975609756098
+        ],
+        "precision": [
+          0.4634146341463415,
+          0.7560975609756098
+        ],
+        "recall": [
+          1.0,
+          1.0
+        ],
+        "f1": [
+          0.6333333333333333,
+          0.8611111111111112
+        ],
+        "mcc": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "classifier_only": {
+      "point_estimate": {
+        "accuracy": 0.7073170731707317,
+        "balanced_accuracy": 0.63625,
+        "precision": 0.6857142857142857,
+        "recall": 0.96,
+        "f1": 0.8,
+        "mcc": 0.376085729841583,
+        "false_negative_rate": 0.04,
+        "false_positive_rate": 0.6875,
+        "escalation_rate": 0.8536585365853658,
+        "roc_auc": 0.71625,
+        "pr_auc": 0.7393946089433312
+      },
+      "ci_95": {
+        "accuracy": [
+          0.5609756097560976,
+          0.8292682926829268
+        ],
+        "precision": [
+          0.5151515151515151,
+          0.8333333333333334
+        ],
+        "recall": [
+          0.8619458128078817,
+          1.0
+        ],
+        "f1": [
+          0.6666666666666666,
+          0.8985507246376812
+        ],
+        "mcc": [
+          0.05697273867188855,
+          0.6142609789131303
+        ]
+      }
+    },
+    "hybrid_system": {
+      "point_estimate": {
+        "accuracy": 0.6829268292682927,
+        "balanced_accuracy": 0.605,
+        "precision": 0.6666666666666666,
+        "recall": 0.96,
+        "f1": 0.7868852459016393,
+        "mcc": 0.31304951684997057,
+        "false_negative_rate": 0.04,
+        "false_positive_rate": 0.75,
+        "escalation_rate": 0.8780487804878049,
+        "roc_auc": 0.71625,
+        "pr_auc": 0.7393946089433312
+      },
+      "ci_95": {
+        "accuracy": [
+          0.5365853658536586,
+          0.8292682926829268
+        ],
+        "precision": [
+          0.5,
+          0.8157894736842105
+        ],
+        "recall": [
+          0.8619458128078817,
+          1.0
+        ],
+        "f1": [
+          0.6536016949152542,
+          0.8888888888888888
+        ],
+        "mcc": [
+          -0.013709688274432905,
+          0.5707725445847719
+        ]
+      }
+    }
+  },
+  "confusion_matrix_hybrid": [
+    [
+      4,
+      12
+    ],
+    [
+      1,
+      24
+    ]
+  ],
+  "tier_metrics": {
+    "exact_tier_match_rate": 0.24390243902439024,
+    "under_escalation_rate": 0.024390243902439025,
+    "over_escalation_rate": 0.7317073170731707,
+    "mean_abs_tier_error": 1.6829268292682926
+  }
+}

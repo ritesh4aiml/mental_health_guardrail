@@ -1,0 +1,25 @@
+Figure,Description,Filename
+4.1,Original dataset partition,fig_4_1_original_dataset_partition.png
+4.2,Dialog intent distribution,fig_4_2_dialog_intent_distribution.png
+4.3,Concern type distribution,fig_4_3_concern_type_distribution.png
+4.4,Original risk-level distribution,fig_4_4_original_risk_level_distribution.png
+4.5,Cleaned binary risk distribution,fig_4_5_cleaned_binary_risk_distribution.png
+4.6,Cleaned user-text characteristics,fig_4_6_cleaned_text_length_distribution.png
+4.7,Concern type × original risk level,fig_4_7_concern_type_by_risk_level.png
+4.8,Token-length distribution,fig_4_8_token_length_distribution.png
+4.9,Validation threshold selection,fig_4_9_validation_threshold_selection.png
+4.10,Binary classification performance,fig_4_10_binary_classification_performance.png
+4.11,ROC curve,fig_4_11_roc_curve_test.png
+4.12,Precision–Recall curve,fig_4_12_precision_recall_curve_test.png
+4.13,Hybrid confusion matrix,fig_4_13_hybrid_confusion_matrix.png
+4.14,Four-tier confusion matrix,fig_4_14_four_tier_confusion_matrix.png
+4.15,Predicted tier distribution,fig_4_15_predicted_tier_distribution.png
+4.16,Before/after response-change demonstration,fig_4_16_before_after_response_change.png
+4.17,Bootstrap confidence intervals,fig_4_17_bootstrap_confidence_intervals.png
+4.18,Overall system architecture,fig_4_18_overall_system_architecture.png
+4.19,Rule-based safety guardrail,fig_4_19_rule_based_safety_guardrail.png
+4.20,Risk fusion and four-tier engine,fig_4_20_risk_fusion_four_tier_engine.png
+4.21,Content-based response routing,fig_4_21_content_based_response_routing.png
+4.22,Crisis escalation workflow,fig_4_22_crisis_escalation_workflow.png
+4.23,Privacy-preserving audit logging,fig_4_23_privacy_preserving_audit_logging.png
+4.24,End-to-end implementation flow,fig_4_24_end_to_end_implementation_flow.png

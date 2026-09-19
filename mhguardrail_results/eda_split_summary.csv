@@ -1,0 +1,4 @@
+Split,Records,Percentage
+Train,700,70.0
+Validation,150,15.0
+Test,150,15.0
