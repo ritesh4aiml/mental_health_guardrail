@@ -1,5 +1,5 @@
 {
-  "threshold": 0.07,
+  "threshold": 0.04,
   "critical_threshold": 0.85,
   "threshold_policy": "max precision subject to recall >= 0.95",
   "response_replacement_sections": [
@@ -7,8 +7,8 @@
     "self_harm_or_suicidal_ideation"
   ],
   "max_length": 384,
-  "validation_score_separation": 0.37207984924316406,
-  "validation_auc": 0.8075,
+  "validation_score_separation": 0.4024084806442261,
+  "validation_auc": 0.8175,
   "results_by_system": {
     "majority_baseline": {
       "point_estimate": {
@@ -47,83 +47,83 @@
     },
     "classifier_only": {
       "point_estimate": {
-        "accuracy": 0.7073170731707317,
-        "balanced_accuracy": 0.63625,
-        "precision": 0.6857142857142857,
+        "accuracy": 0.6585365853658537,
+        "balanced_accuracy": 0.57375,
+        "precision": 0.6486486486486487,
         "recall": 0.96,
-        "f1": 0.8,
-        "mcc": 0.376085729841583,
+        "f1": 0.7741935483870968,
+        "mcc": 0.242488506275402,
         "false_negative_rate": 0.04,
-        "false_positive_rate": 0.6875,
-        "escalation_rate": 0.8536585365853658,
-        "roc_auc": 0.71625,
-        "pr_auc": 0.7393946089433312
+        "false_positive_rate": 0.8125,
+        "escalation_rate": 0.9024390243902439,
+        "roc_auc": 0.75125,
+        "pr_auc": 0.7692874163763247
       },
       "ci_95": {
         "accuracy": [
-          0.5609756097560976,
-          0.8292682926829268
+          0.5121951219512195,
+          0.8048780487804879
         ],
         "precision": [
-          0.5151515151515151,
-          0.8333333333333334
+          0.4864864864864865,
+          0.8
         ],
         "recall": [
           0.8619458128078817,
           1.0
         ],
         "f1": [
-          0.6666666666666666,
-          0.8985507246376812
+          0.631578947368421,
+          0.8767123287671232
         ],
         "mcc": [
-          0.05697273867188855,
-          0.6142609789131303
+          -0.10170952554312156,
+          0.5111372235136679
         ]
       }
     },
     "hybrid_system": {
       "point_estimate": {
-        "accuracy": 0.6829268292682927,
-        "balanced_accuracy": 0.605,
-        "precision": 0.6666666666666666,
+        "accuracy": 0.6585365853658537,
+        "balanced_accuracy": 0.57375,
+        "precision": 0.6486486486486487,
         "recall": 0.96,
-        "f1": 0.7868852459016393,
-        "mcc": 0.31304951684997057,
+        "f1": 0.7741935483870968,
+        "mcc": 0.242488506275402,
         "false_negative_rate": 0.04,
-        "false_positive_rate": 0.75,
-        "escalation_rate": 0.8780487804878049,
-        "roc_auc": 0.71625,
-        "pr_auc": 0.7393946089433312
+        "false_positive_rate": 0.8125,
+        "escalation_rate": 0.9024390243902439,
+        "roc_auc": 0.75125,
+        "pr_auc": 0.7692874163763247
       },
       "ci_95": {
         "accuracy": [
-          0.5365853658536586,
-          0.8292682926829268
+          0.5121951219512195,
+          0.8048780487804879
         ],
         "precision": [
-          0.5,
-          0.8157894736842105
+          0.4864864864864865,
+          0.8
         ],
         "recall": [
           0.8619458128078817,
           1.0
         ],
         "f1": [
-          0.6536016949152542,
-          0.8888888888888888
+          0.631578947368421,
+          0.8767123287671232
         ],
         "mcc": [
-          -0.013709688274432905,
-          0.5707725445847719
+          -0.10170952554312156,
+          0.5111372235136679
         ]
       }
     }
   },
   "confusion_matrix_hybrid": [
     [
-      4,
-      12
+      3,
+      13
     ],
     [
       1,
@@ -131,9 +131,9 @@
     ]
   ],
   "tier_metrics": {
-    "exact_tier_match_rate": 0.24390243902439024,
+    "exact_tier_match_rate": 0.21951219512195122,
     "under_escalation_rate": 0.024390243902439025,
-    "over_escalation_rate": 0.7317073170731707,
-    "mean_abs_tier_error": 1.6829268292682926
+    "over_escalation_rate": 0.7560975609756098,
+    "mean_abs_tier_error": 1.7317073170731707
   }
 }

@@ -6,13 +6,13 @@ classifier was trained on the training split of MHDialog, its decision threshold
 validation split using a safety-first policy (maximize precision subject to recall >= 0.95),
 and the full hybrid system was evaluated on the held-out test split.
 
-The hybrid system achieved a precision of 0.667 (95% CI [0.500, 0.816]),
+The hybrid system achieved a precision of 0.649 (95% CI [0.486, 0.800]),
 recall of 0.960 (95% CI [0.862, 1.000]), and F1-score of
-0.787 (95% CI [0.654, 0.889]), against a majority-class baseline
+0.774 (95% CI [0.632, 0.877]), against a majority-class baseline
 accuracy of 0.610. The false-negative rate
 was 0.040, which is the single most safety-critical number in this evaluation, since a missed
 high-risk case has far more serious consequences than an unnecessary escalation. The selected policy
-produced an escalation rate of 0.878 on the test set.
+produced an escalation rate of 0.902 on the test set.
 
 Every non-NONE assessment is written to a structured, hashed audit log, giving the system an explicit,
 inspectable escalation trail rather than a silent decision. Qualitative before-and-after comparisons
